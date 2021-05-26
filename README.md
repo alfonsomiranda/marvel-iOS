@@ -1,9 +1,46 @@
 # MarvelApp
 
-- La arquitectura está basada en VIPER, que es una implementación adaptada a iOS de Clean Architecture, cumpliendo las reglas de SOLID. En este [artículo](https://alfonsomiranda.com/posts/clean-architecture-ios-viper/) explico de forma más detallada la filosofía y reglas de esta arquitectura.
-- Cada módulo o "pantalla" del proyecto está compuesto por un ViewController (+ xib), un Presenter, un Router y un Interactor. Esto se construye a partir de un assembly
-- Para cada capa tenemos una clase Base, junto a sus protocolos, que unifican y aseguran ciertas funcionalidades y comportamientos comunes de cada una de ellas.
-- En el BaseProvider funcionamos con un manager de conexiones, donde implementando el BaseProviderProtocol podemos añadir las diferentes implementaciones que queramos. En este ejemplo se está usando Alamofire, con "AlamofireManager", pero se podría cambiar al otro Manager que hay en el proyecto llamado "NativeManager", que no hace uso de ninguna librería externa, y todo seguiría funcionando igual.
-- En el proyecto están creado 4 targets: Local, desarrollo, pre-producción y producción. Todo está preparado para tener esos cuatro entornos consumiendo de diferentes entornos. En este caso todos los targets consumen los mismos, pero ya está preparado para cuando en un proyecto real tengamos ese backend.
-- Se está usando un manager para las tablas (TableViewManager) que delega toda la responsabilidad en el presenter.
-- Se usa SwiftLint para mantener la calidad del código.
+## Description
+
+The application is developed using the [Marvel API](https://developer.marvel.com), in order to explain how to use Clean Architecture and good practices.  Some points to keep in mind:
+
+* The architecture is based on `VIPER`, which is an implementation adapted to iOS of Clean Architecture, complying with the `SOLID rules. In this [article](https://alfonsomiranda.com/posts/clean-architecture-ios-viper/), I explain the philosophy and rules of this architecture in more detail.
+* Each module or "screen" of the project is made up of a ViewController (+ xib), a Presenter, a Router, and an Interactor. This is built from an assembly
+* For each layer we have a Base class, together with its protocols, that unify and ensure certain common functionalities and behaviors of each of them.
+* In the `BaseProvider` we work with a connection manager, whereby implementing the BaseProviderProtocol we can add the different implementations that we want. In this example Alamofire is being used, with `AlamofireManager`, but it could be changed to the other Manager in the project called `NativeManager`, which does not make use of any external library, and everything would continue to work the same.
+* In the project 4 targets are created: `Local`, `development`, `pre-production`, and `production`. Everything is prepared to have those four environments consuming from different environments. In this case, all the targets consume the same, but it is already prepared for when in a real project we have that backend.
+* A manager is being used for the tables (`TableViewManager`) that delegates all responsibility to the presenter.
+* `Unit Testing` View, Presenter, Interactor and Provider test cases
+* `Third party libraries` with **Cocoapods**:
+    * `Alamofire` Network layer
+    * `KingFisher` Loading & Caching images
+    * `JGProgressHUD` Loader view
+    * `SwiftLint` Swift style and conventions
+
+## Run Requirements
+
+* Xcode 10+
+* iOS 12+
+
+### Build and run the application
+
+1. Install Pods
+
+```bash
+pod install
+```
+
+2. Added public and private key in 
+
+```
+Marvel Target -> Build Settings -> User-defined-> MARVEL_API_KEY
+Marvel Target -> Build Settings -> User-defined-> MARVEL_HASH
+```
+
+3. Open project
+
+```bash
+open Marvel.xcworkspace
+```
+
+4. Build, run and enjoy
