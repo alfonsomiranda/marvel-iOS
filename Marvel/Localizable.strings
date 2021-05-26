@@ -1,0 +1,26 @@
+/* 
+  Localized.strings
+  Marvel
+
+  Created by Alfonso Miranda Castro on 29/02/2020.
+  Copyright © 2020 Alfonso Miranda Castro. All rights reserved.
+*/
+
+"error_generic" = "An error has occurred";
+"invalid_credentials_error" = "Invalid credentials";
+"logout_inactivity_alert_accept_button" = "Accept";
+"Network_error" = "There is a problem with the internet connection";
+
+// List View
+
+"title_app" = "MARVEL";
+"list_view_reload_button_title" = "Reload";
+
+// Detail View
+
+"detail_view_comics_number" = "Comics: ";
+"detail_view_series_number" = "Series: ";
+
+// Character View Model
+
+"character_no_description" = "No description";
