@@ -20,12 +20,10 @@
 		B313554C2408206F005CDAD6 /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31354EE2408206C005CDAD6 /* CustomFont.swift */; };
 		B313554D2408206F005CDAD6 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31354EF2408206C005CDAD6 /* Utils.swift */; };
 		B313554E2408206F005CDAD6 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31354F12408206D005CDAD6 /* UIImageView+Extension.swift */; };
-		B313554F2408206F005CDAD6 /* UIDevice+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31354F22408206D005CDAD6 /* UIDevice+Extension.swift */; };
 		B31355522408206F005CDAD6 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31354F52408206D005CDAD6 /* UIColor+Extension.swift */; };
 		B31355542408206F005CDAD6 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31354F72408206D005CDAD6 /* Date+Extension.swift */; };
 		B313555E2408206F005CDAD6 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31355012408206D005CDAD6 /* UIViewController+Extension.swift */; };
 		B313555F2408206F005CDAD6 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31355022408206D005CDAD6 /* String+Extension.swift */; };
-		B31355602408206F005CDAD6 /* UINavigationBar+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31355032408206D005CDAD6 /* UINavigationBar+Extension.swift */; };
 		B31355612408206F005CDAD6 /* NativeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31355062408206E005CDAD6 /* NativeManager.swift */; };
 		B31355622408206F005CDAD6 /* BaseProviderParamsDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31355072408206E005CDAD6 /* BaseProviderParamsDTO.swift */; };
 		B31355632408206F005CDAD6 /* BaseProviderUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31355082408206E005CDAD6 /* BaseProviderUtils.swift */; };
@@ -63,10 +61,10 @@
 		B31355832408206F005CDAD6 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B313553A2408206E005CDAD6 /* NetworkManager.swift */; };
 		B31355842408206F005CDAD6 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = B313553B2408206E005CDAD6 /* Reachability.swift */; };
 		B31355852408206F005CDAD6 /* KnownErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B313553D2408206E005CDAD6 /* KnownErrors.swift */; };
-		B31355862408206F005CDAD6 /* ErrorLoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B313553F2408206E005CDAD6 /* ErrorLoginModel.swift */; };
+		B31355862408206F005CDAD6 /* ErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B313553F2408206E005CDAD6 /* ErrorModel.swift */; };
 		B31355872408206F005CDAD6 /* CustomErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31355402408206E005CDAD6 /* CustomErrorModel.swift */; };
 		B31355882408206F005CDAD6 /* CustomErrorAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31355412408206E005CDAD6 /* CustomErrorAction.swift */; };
-		B31355892408206F005CDAD6 /* ErrorLoginServerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31355422408206E005CDAD6 /* ErrorLoginServerModel.swift */; };
+		B31355892408206F005CDAD6 /* ErrorServerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31355422408206E005CDAD6 /* ErrorServerModel.swift */; };
 		B313558A2408206F005CDAD6 /* AppInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31355442408206F005CDAD6 /* AppInitializer.swift */; };
 		B313558B2408206F005CDAD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31355452408206F005CDAD6 /* AppDelegate.swift */; };
 		B39A2302240A56D100AB1014 /* AlamofireManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39A2301240A56D100AB1014 /* AlamofireManager.swift */; };
@@ -131,12 +129,10 @@
 		B31354EE2408206C005CDAD6 /* CustomFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
 		B31354EF2408206C005CDAD6 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		B31354F12408206D005CDAD6 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
-		B31354F22408206D005CDAD6 /* UIDevice+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extension.swift"; sourceTree = "<group>"; };
 		B31354F52408206D005CDAD6 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		B31354F72408206D005CDAD6 /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 		B31355012408206D005CDAD6 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		B31355022408206D005CDAD6 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
-		B31355032408206D005CDAD6 /* UINavigationBar+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationBar+Extension.swift"; sourceTree = "<group>"; };
 		B31355062408206E005CDAD6 /* NativeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NativeManager.swift; sourceTree = "<group>"; };
 		B31355072408206E005CDAD6 /* BaseProviderParamsDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseProviderParamsDTO.swift; sourceTree = "<group>"; };
 		B31355082408206E005CDAD6 /* BaseProviderUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseProviderUtils.swift; sourceTree = "<group>"; };
@@ -174,10 +170,10 @@
 		B313553A2408206E005CDAD6 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		B313553B2408206E005CDAD6 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		B313553D2408206E005CDAD6 /* KnownErrors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KnownErrors.swift; sourceTree = "<group>"; };
-		B313553F2408206E005CDAD6 /* ErrorLoginModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorLoginModel.swift; sourceTree = "<group>"; };
+		B313553F2408206E005CDAD6 /* ErrorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorModel.swift; sourceTree = "<group>"; };
 		B31355402408206E005CDAD6 /* CustomErrorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomErrorModel.swift; sourceTree = "<group>"; };
 		B31355412408206E005CDAD6 /* CustomErrorAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomErrorAction.swift; sourceTree = "<group>"; };
-		B31355422408206E005CDAD6 /* ErrorLoginServerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorLoginServerModel.swift; sourceTree = "<group>"; };
+		B31355422408206E005CDAD6 /* ErrorServerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorServerModel.swift; sourceTree = "<group>"; };
 		B31355442408206F005CDAD6 /* AppInitializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppInitializer.swift; sourceTree = "<group>"; };
 		B31355452408206F005CDAD6 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B39A2301240A56D100AB1014 /* AlamofireManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireManager.swift; sourceTree = "<group>"; };
@@ -328,12 +324,10 @@
 			isa = PBXGroup;
 			children = (
 				B31354F12408206D005CDAD6 /* UIImageView+Extension.swift */,
-				B31354F22408206D005CDAD6 /* UIDevice+Extension.swift */,
 				B31354F52408206D005CDAD6 /* UIColor+Extension.swift */,
 				B31354F72408206D005CDAD6 /* Date+Extension.swift */,
 				B31355012408206D005CDAD6 /* UIViewController+Extension.swift */,
 				B31355022408206D005CDAD6 /* String+Extension.swift */,
-				B31355032408206D005CDAD6 /* UINavigationBar+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -548,10 +542,10 @@
 		B313553E2408206E005CDAD6 /* ErrorModels */ = {
 			isa = PBXGroup;
 			children = (
-				B313553F2408206E005CDAD6 /* ErrorLoginModel.swift */,
+				B313553F2408206E005CDAD6 /* ErrorModel.swift */,
 				B31355402408206E005CDAD6 /* CustomErrorModel.swift */,
 				B31355412408206E005CDAD6 /* CustomErrorAction.swift */,
-				B31355422408206E005CDAD6 /* ErrorLoginServerModel.swift */,
+				B31355422408206E005CDAD6 /* ErrorServerModel.swift */,
 			);
 			path = ErrorModels;
 			sourceTree = "<group>";
@@ -867,7 +861,6 @@
 				B31355812408206F005CDAD6 /* CharacterCellDrawer.swift in Sources */,
 				B313558B2408206F005CDAD6 /* AppDelegate.swift in Sources */,
 				B3E3FE0424099D570060E7B3 /* DetailPresenter.swift in Sources */,
-				B313554F2408206F005CDAD6 /* UIDevice+Extension.swift in Sources */,
 				B31355612408206F005CDAD6 /* NativeManager.swift in Sources */,
 				B31355742408206F005CDAD6 /* TableViewManager.swift in Sources */,
 				B313554E2408206F005CDAD6 /* UIImageView+Extension.swift in Sources */,
@@ -877,8 +870,8 @@
 				B39A2302240A56D100AB1014 /* AlamofireManager.swift in Sources */,
 				B313555E2408206F005CDAD6 /* UIViewController+Extension.swift in Sources */,
 				B31355872408206F005CDAD6 /* CustomErrorModel.swift in Sources */,
-				B31355892408206F005CDAD6 /* ErrorLoginServerModel.swift in Sources */,
-				B31355862408206F005CDAD6 /* ErrorLoginModel.swift in Sources */,
+				B31355892408206F005CDAD6 /* ErrorServerModel.swift in Sources */,
+				B31355862408206F005CDAD6 /* ErrorModel.swift in Sources */,
 				B313556A2408206F005CDAD6 /* BaseAssembly.swift in Sources */,
 				B31355632408206F005CDAD6 /* BaseProviderUtils.swift in Sources */,
 				F9ADB98E265D6C0000B90A4E /* MarvelApiConstants.swift in Sources */,
@@ -895,7 +888,6 @@
 				B31355472408206F005CDAD6 /* LocalizedKeys.swift in Sources */,
 				B313557C2408206F005CDAD6 /* CharactersBusinessModel.swift in Sources */,
 				B31355802408206F005CDAD6 /* CharacterTableViewCell.swift in Sources */,
-				B31355602408206F005CDAD6 /* UINavigationBar+Extension.swift in Sources */,
 				B31355522408206F005CDAD6 /* UIColor+Extension.swift in Sources */,
 				B31355852408206F005CDAD6 /* KnownErrors.swift in Sources */,
 				B31355482408206F005CDAD6 /* Session.swift in Sources */,
