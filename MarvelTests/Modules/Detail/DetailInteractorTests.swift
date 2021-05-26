@@ -2,8 +2,8 @@
 //  DetailInteractorTests.swift
 //  MarvelTests
 //
-//  Created by Alfonso Miranda Castro on 01/03/2020.
-//  Copyright © 2020 Alfonso Miranda Castro. All rights reserved.
+//  Created by Alfonso Miranda on 26/05/2021.
+//  Copyright © 2021 alfonsomiranda. All rights reserved.
 //
 
 import XCTest
@@ -25,22 +25,22 @@ class DetailInteractorTests: XCTestCase {
     }
 
     func test_getCharacterDetail_success() {
-        //GIVEN
+        // GIVEN
         self.provider.isSuccess = true
-        //WHEN
+        // WHEN
         self.interactor?.getCharacterDetail()
-        //THEN
-        XCTAssert(self.provider.isCharacterListCalled)
-        XCTAssert(self.presenter.isSetCharacterCalled)
+        // THEN
+        XCTAssertTrue(self.provider.isCharacterListCalled)
+        XCTAssertTrue(self.presenter.isSetCharacterCalled)
     }
     
     func test_getCharacterDetail_failure() {
-        //GIVEN
+        // GIVEN
         self.provider.isSuccess = false
-        //WHEN
+        // WHEN
         self.interactor?.getCharacterDetail()
-        //THEN
-        XCTAssert(self.provider.isCharacterListCalled)
-        XCTAssert(self.presenter.isSetCharacterDetailErrorCalled)
+        // THEN
+        XCTAssertTrue(self.provider.isCharacterListCalled)
+        XCTAssertTrue(self.presenter.isSetCharacterDetailErrorCalled)
     }
 }

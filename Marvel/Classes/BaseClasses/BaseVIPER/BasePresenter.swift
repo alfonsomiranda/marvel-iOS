@@ -1,13 +1,13 @@
 //
 //  BasePresenter.swift
 //
-//  Created by Alfonso Miranda on 27/02/2020.
-//  Copyright © 2020 alfonsomiranda. All rights reserved.
+//  Created by Alfonso Miranda on 26/05/2021.
+//  Copyright © 2021 alfonsomiranda. All rights reserved.
 //
 
 import UIKit
 
-//Base class, it is declared as a good practice to implement new functions in a global way in the application.
+// Base class, it is declared as a good practice to implement new functions in a global way in the application.
 class BasePresenter {
     
     // Declared weak for the ARC to destroy them.

@@ -1,8 +1,8 @@
 //
 //  BaseProvider.swift
 //
-//  Created by Alfonso Miranda on 27/02/20.
-//  Copyright © 2020 alfonsomiranda. All rights reserved.
+//  Created by Alfonso Miranda on 26/05/2021.
+//  Copyright © 2021 alfonsomiranda. All rights reserved.
 //
 
 import UIKit
@@ -62,14 +62,13 @@ struct ProviderDTO {
 }
 
 class BaseProvider: NSObject {
-    //swiftlint:disable multiple_closures_with_trailing_closure
+    // swiftlint:disable multiple_closures_with_trailing_closure
 
     var task: URLSessionTask?
     
     weak var delegate: BaseProviderDelegate?
     
     var manager: RequestManager?
-    //var manager: RequestManager = NativeManager()
     
     internal func request(dto: ProviderDTO, timeout: TimeInterval = 15, printLog: Bool = true, encrypted: Bool = false, additionalHeader: [ String: String] = [:], success: @escaping(Data?) -> Void, failure: @escaping(CustomErrorModel) -> Void) -> URLSessionTask? {
         if !NetworkManager.shared.checkNetwork() {
@@ -98,7 +97,7 @@ class BaseProvider: NSObject {
 }
 
 protocol RequestManager {
-    //swiftlint:disable function_parameter_count
+    // swiftlint:disable function_parameter_count
     
     var delegate: BaseProviderDelegate? {get set}
     
