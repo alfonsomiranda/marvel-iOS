@@ -4,7 +4,7 @@
 
 The application is developed using the [Marvel API](https://developer.marvel.com), in order to explain how to use Clean Architecture and good practices.  Some points to keep in mind:
 
-* The architecture is based on `VIPER`, which is an implementation adapted to iOS of Clean Architecture, complying with the `SOLID rules. In this [article](https://alfonsomiranda.com/posts/clean-architecture-ios-viper/), I explain the philosophy and rules of this architecture in more detail.
+* The architecture is based on `VIPER`, which is an implementation adapted to iOS of Clean Architecture, complying with the `SOLID` rules. In this [article](https://alfonsomiranda.com/posts/clean-architecture-ios-viper/), I explain the philosophy and rules of this architecture in more detail.
 * Each module or "screen" of the project is made up of a ViewController (+ xib), a Presenter, a Router, and an Interactor. This is built from an assembly
 * For each layer we have a Base class, together with its protocols, that unify and ensure certain common functionalities and behaviors of each of them.
 * In the `BaseProvider` we work with a connection manager, whereby implementing the BaseProviderProtocol we can add the different implementations that we want. In this example Alamofire is being used, with `AlamofireManager`, but it could be changed to the other Manager in the project called `NativeManager`, which does not make use of any external library, and everything would continue to work the same.
