@@ -2,8 +2,8 @@
 //  MarvelApiConstants.swift
 //  Marvel
 //
-//  Created by Alfonso Miranda Castro on 25/5/21.
-//  Copyright © 2021 Alfonso Miranda Castro. All rights reserved.
+//  Created by Alfonso Miranda on 26/05/2021.
+//  Copyright © 2021 alfonsomiranda. All rights reserved.
 //
 
 import Foundation

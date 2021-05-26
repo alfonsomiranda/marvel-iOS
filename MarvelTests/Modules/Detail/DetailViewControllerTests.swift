@@ -2,8 +2,8 @@
 //  DetailViewControllerTests.swift
 //  MarvelTests
 //
-//  Created by Alfonso Miranda Castro on 01/03/2020.
-//  Copyright © 2020 Alfonso Miranda Castro. All rights reserved.
+//  Created by Alfonso Miranda on 26/05/2021.
+//  Copyright © 2021 alfonsomiranda. All rights reserved.
 //
 
 import XCTest
@@ -25,9 +25,9 @@ class DetailViewControllerTests: XCTestCase {
     }
 
     func test_view_did_load() {
-        //WHEN
+        // WHEN
         self.view?.viewDidLoad()
-        //THEN
-        XCTAssert(self.presenter.isViewDidLoadCalled)
+        // THEN
+        XCTAssertTrue(self.presenter.isViewDidLoadCalled)
     }
 }

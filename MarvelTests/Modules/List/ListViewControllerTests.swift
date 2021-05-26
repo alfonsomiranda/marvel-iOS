@@ -2,8 +2,8 @@
 //  ListViewControllerTests.swift
 //  MarvelTests
 //
-//  Created by Alfonso Miranda Castro on 01/03/2020.
-//  Copyright © 2020 Alfonso Miranda Castro. All rights reserved.
+//  Created by Alfonso Miranda on 26/05/2021.
+//  Copyright © 2021 alfonsomiranda. All rights reserved.
 //
 
 import XCTest
@@ -25,17 +25,17 @@ class ListViewControllerTests: XCTestCase {
     }
     
     func test_viewDidLoad_is_called() {
-        //WHEN
+        // WHEN
         view?.viewDidLoad()
-        //THEN
-        XCTAssert(self.presenter.isViewDidLoadCalled)
-        XCTAssert(self.view?.title == "MARVEL")
+        // THEN
+        XCTAssertTrue(self.presenter.isViewDidLoadCalled)
+        XCTAssertEqual(self.view?.title, "MARVEL")
     }
 
     func test_reload_button_is_touched() {
-        //WHEN
+        // WHEN
         self.view?.reloadButton.sendActions(for: .touchUpInside)
-        //THEN
-        XCTAssert(self.presenter.isLoadCharactersCalled)
+        // THEN
+        XCTAssertTrue(self.presenter.isLoadCharactersCalled)
     }
 }

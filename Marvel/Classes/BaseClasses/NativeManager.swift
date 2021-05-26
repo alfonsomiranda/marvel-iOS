@@ -1,15 +1,15 @@
 //
 //  NativeManager.swift
 //
-//  Created by Alfonso Miranda Castro on 21/01/2020.
-//  Copyright © 2020 alfonsomiranda. All rights reserved.
+//  Created by Alfonso Miranda on 26/05/2021.
+//  Copyright © 2021 alfonsomiranda. All rights reserved.
 //
 
 import Foundation
 
 class NativeManager: RequestManager {
-    //swiftlint:disable function_parameter_count
-    //swiftlint:disable multiple_closures_with_trailing_closure
+    // swiftlint:disable function_parameter_count
+    // swiftlint:disable multiple_closures_with_trailing_closure
     
     weak var delegate: BaseProviderDelegate?
     

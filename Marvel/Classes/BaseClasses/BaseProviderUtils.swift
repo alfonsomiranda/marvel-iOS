@@ -1,14 +1,14 @@
 //
 //  BaseProviderUtils.swift
 //
-//  Created by Alfonso Miranda Castro on 20/01/2020.
-//  Copyright © 2020 alfonsomiranda. All rights reserved.
+//  Created by Alfonso Miranda on 26/05/2021.
+//  Copyright © 2021 alfonsomiranda. All rights reserved.
 //
 
 import Foundation
 
 class BaseProviderUtils {
-    //swiftlint:disable function_parameter_count
+    // swiftlint:disable function_parameter_count
     
     static func printRequest(dto: ProviderDTO, endpoint: String, headers: [String: Any], printData: Bool) {
         

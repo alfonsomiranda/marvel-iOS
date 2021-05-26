@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  Marvel
 //
-//  Created by Alfonso Miranda on 26/02/2020.
-//  Copyright © 2020 alfonsomiranda. All rights reserved.
+//  Created by Alfonso Miranda on 26/05/2021.
+//  Copyright © 2021 alfonsomiranda. All rights reserved.
 //
 
 import UIKit

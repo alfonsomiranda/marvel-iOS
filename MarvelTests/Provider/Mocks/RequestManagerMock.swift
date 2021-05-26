@@ -2,15 +2,15 @@
 //  RequestManagerMock.swift
 //  MarvelTests
 //
-//  Created by Alfonso Miranda Castro on 02/03/2020.
-//  Copyright © 2020 Alfonso Miranda Castro. All rights reserved.
+//  Created by Alfonso Miranda on 26/05/2021.
+//  Copyright © 2021 alfonsomiranda. All rights reserved.
 //
 
 import Foundation
 @testable import Marvel
 
 class RequestManagerMock: RequestManager {
-    //swiftlint:disable function_parameter_count
+    // swiftlint:disable function_parameter_count
     
     weak var delegate: BaseProviderDelegate?
     
