@@ -1,0 +1,30 @@
+PODS:
+  - Alamofire (4.8.1)
+  - JGProgressHUD (2.2)
+  - Kingfisher (5.15.8):
+    - Kingfisher/Core (= 5.15.8)
+  - Kingfisher/Core (5.15.8)
+  - SwiftLint (0.43.1)
+
+DEPENDENCIES:
+  - Alamofire (= 4.8.1)
+  - JGProgressHUD
+  - Kingfisher (~> 5.0)
+  - SwiftLint (~> 0.31)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - JGProgressHUD
+    - Kingfisher
+    - SwiftLint
+
+SPEC CHECKSUMS:
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  JGProgressHUD: d83d7a981b85d11205e19ff8ad5bb9c40571c847
+  Kingfisher: a3c03d702433fa6cfedabb2bddbe076fb8f2e902
+  SwiftLint: 99f82d07b837b942dd563c668de129a03fc3fb52
+
+PODFILE CHECKSUM: 007eafc8dc86bae1855f63030cc55318e4114fc0
+
+COCOAPODS: 1.10.1
